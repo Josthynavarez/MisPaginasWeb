@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Glow Up - Peluquería Profesional</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #fff5f8; color: #444; line-height: 1.6; }
+        header { background: #f06292; padding: 30px; text-align: center; color: white; }
+        .contenedor { padding: 40px; max-width: 1000px; margin: auto; }
+        
+        /* ESTILO BASE PARA LAS TARJETAS (Imagen a la Izquierda) */
+        .servicio-card { background: white; padding: 20px; border-radius: 10px; margin-bottom: 30px; display: flex; gap: 30px; align-items: center; box-shadow: 0 6px 15px rgba(0,0,0,0.08); overflow: hidden; }
+        .servicio-card img { width: 350px; height: 250px; object-fit: cover; border-radius: 8px; background: #eee; }
+        .servicio-info { flex: 1; } /* El texto ocupa el resto del espacio */
+        
+        /* --- ESTILO ESPECIAL PARA IMAGEN A LA DERECHA --- */
+        .servicio-card.reversa {
+            flex-direction: row-reverse; /* ESTA ES LA MAGIA */
+        }
+        
+        h3 { color: #f06292; margin-top: 0; font-size: 1.6rem; border-bottom: 2px solid #f8bbd0; padding-bottom: 5px; }
+        p { margin: 10px 0; }
+        .info-extra { background: white; padding: 25px; border-radius: 10px; margin-top: 30px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .info-extra h2 { color: #f06292; margin-top: 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Glow Up Studio ✂️</h1>
+        <p>Expertos en colorimetría y tendencias 2026</p>
+    </header>
+
+    <div class="contenedor">
+        
+        <div class="servicio-card">
+            <img src="Lavado.jpeg" alt="Corte de cabello">
+            <div class="servicio-info">
+                <h3>Corte y Estilo</h3>
+                <p>Diseño de imagen personalizado según tu tipo de rostro. Incluye lavado profundo con productos orgánicos y secado profesional.</p>
+                <p><strong>Duración:</strong> 45 - 60 min. | <strong>Precio:</strong> $25.00</p>
+            </div>
+        </div>
+
+        <div class="servicio-card reversa">
+            <img src="coloracion de cabello.jpg" alt="Tinturado">
+            <div class="servicio-info">
+                <h3>Colorimetría Avanzada</h3>
+                <p>Especialistas en Balayage, Babylights y cambios de tono globales sin maltratar la fibra capilar.</p>
+                <p><strong>Precio:</strong> Desde $45.00 | <strong>Duración:</strong> 90 - 120 min.</p>
+            </div>
+        </div>
+
+        <div class="servicio-card">
+            <img src="Barberia.jpeg" alt="Barbería">
+            <div class="servicio-info">
+                <h3>Barbería Clásica</h3>
+                <p>Perfilado de barba con toalla caliente, corte clásico a tijera y afeitado tradicional con navaja.</p>
+                <p><strong>Precio:</strong> $15.00 | <strong>Duración:</strong> 30 min.</p>
+            </div>
+        </div>
+
+        <div class="info-extra">
+            <h2>Horarios y Citas</h2>
+            <p><strong>Lunes a Sábado:</strong> 9:00 AM - 7:00 PM</p>
+            <p><strong>Ubicación:</strong> Sector Norte, Edificio Las Palmas, Local 4.</p>
+            <p><strong>✨ ¡Déjanos consentirte como te mereces! ✨</strong></p>
+        </div>
+    </div>
+</body>
+</html>

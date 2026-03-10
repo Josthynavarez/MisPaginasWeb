@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>AutoElite - Catálogo Premium</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #1a1a1a; color: white; line-height: 1.6; }
+        header { background: #d32f2f; padding: 30px; text-align: center; }
+        .contenedor { padding: 40px; max-width: 1000px; margin: auto; }
+        .auto-card { background: #2c2c2c; padding: 20px; border-radius: 10px; margin-bottom: 20px; display: flex; gap: 20px; align-items: center; }
+        
+        /* Estilo para que todas las fotos se vean del mismo tamaño y no fallen */
+        .auto-card img { 
+            width: 350px; 
+            height: 220px; 
+            object-fit: cover; 
+            border-radius: 8px;
+            background: #444; /* Fondo gris por si la imagen tarda en cargar */
+        }
+
+        h3 { color: #d32f2f; margin-top: 0; font-size: 1.8rem; }
+        .detalles { background: #333; padding: 15px; border-radius: 5px; margin-top: 20px; }
+        .texto-centrado { text-align: center; margin-top: 30px; font-size: 1.3em; color: #d32f2f; }
+        
+        @media (max-width: 700px) {
+            .auto-card { flex-direction: column; text-align: center; }
+            .auto-card img { width: 100%; height: auto; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AutoElite: Inventario 2026</h1>
+        <p>Modelos de alta gama con entrega inmediata</p>
+    </header>
+
+    <div class="contenedor">
+        
+        <div class="auto-card">
+    <img src="bugatti_chiron_divo_2976.webp" alt="Bugatti Chiron">
+    <div>
+        <h3>Bugatti Chiron divo 🏎️</h3>
+        <p><strong>Ficha Técnica:</strong> Motor W16 de 8.0L. 1500 HP. Una obra maestra de la ingeniería.</p>
+        <p><strong>Estado:</strong> Disponible para exhibición privada.</p>
+    </div>
+</div>
+
+        <div class="auto-card">
+            <img src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=600" alt="Deportivo Eléctrico">
+            <div>
+                <h3>Hyperion Electric GT ⚡</h3>
+                <p><strong>Ficha Técnica:</strong> Motor dual eléctrico de alto rendimiento. Aceleración instantánea y tecnología de carga ultra rápida.</p>
+                <p><strong>Futuro:</strong> Cero emisiones, máxima potencia.</p>
+            </div>
+        </div>
+
+        <div class="auto-card">
+            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600" alt="Luxury SUV">
+            <div>
+                <h3>SUV Familiar Pro Max 🚙</h3>
+                <p><strong>Ficha Técnica:</strong> Tracción 4x4 inteligente, interiores de cuero premium y asistente de conducción avanzada.</p>
+                <p><strong>Confort:</strong> El equilibrio perfecto entre lujo y aventura.</p>
+            </div>
+        </div>
+
+        <div class="detalles">
+            <h2>Información de Compra</h2>
+            <p>• <strong>Garantía:</strong> 5 años o 100,000 km de cobertura total.</p>
+            <p>• <strong>Financiamiento:</strong> Opciones flexibles con aprobación inmediata.</p>
+            <p>• <strong>Mantenimiento:</strong> Servicio técnico especializado incluido.</p>
+        </div>
+
+        <p class="texto-centrado"><strong>✨ Ven a comprar el carro de tus sueños ✨</strong></p>
+    </div>
+</body>
+</html>
